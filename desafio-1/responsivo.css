@@ -1,0 +1,112 @@
+@media(max-width: 425px){
+    .logo{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    nav{
+        width: 100%;
+        text-align: center;
+    }
+    .header nav ul li a {
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 15px 30px;
+        border-radius: 1px;
+        bottom: 25%;
+    }
+    
+    .menu{
+        width: 50%;
+        text-align: center;
+        display: block;
+        margin-top: 90px;
+        position: absolute;
+        left: 29.87%;
+        right: 29.07%;
+        top: 23.88%;
+        bottom: 23.25%;
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+
+        color: #000000;        
+
+    }
+
+    .menu li{
+        margin-left: 0;
+    }
+
+    .menu a{
+        padding: 20px;
+        display: block;
+    }
+
+    .logo{
+        background: url(./menu/logo.png) center center no-repeat;
+        position: absolute;
+        left: 18%;
+        right: 22.93%;
+        top: 40%;
+        bottom: 88.62%;
+        width: 49.28px;
+        height: 48.8px;
+        display: inline-block;
+    }
+
+    .header h1{
+    /* thebank */
+
+
+    position: absolute;
+    left: 34.4%;
+    right: 22.93%;
+    top: 5.5%;
+    bottom: 88.62%;
+
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 97px;
+    /* identical to box height */
+
+
+    color: #000000;
+    }
+
+    /*Cadastre-se */
+.styled {
+
+    border: 0;
+    margin-top: 20px;
+    line-height: 2.5;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #5BC241;
+}
+
+.styled:hover {
+    background-color: #5BC241;
+} 
+
+ .styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+}
+@media(max-width: 768px){
+    
+.header nav ul li a {
+    padding: 15px 7px;
+}
+}

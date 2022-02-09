@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}  
+
+body{
+    /* max-width: 1440px; */
+    margin: 0 auto;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 115px 21px;
+    justify-content: space-around;
+}
+
+.image{
+    width: 335px;
+    height: 431px;
+    font-weight: 400;
+    font-family:'Public Sans', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 31px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.item1{
+    background-image: 
+    linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('./lista-imagens/6.jpg');
+}
+
+.image h2{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.item2{
+    background-image: 
+    linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('./lista-imagens/3.jpg');
+}
+
+.item3{
+    background-image: 
+    linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('./lista-imagens/4.jpg');
+}
+
+.item4{
+    background-image: 
+    linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('./lista-imagens/5.jpg');
+}
+

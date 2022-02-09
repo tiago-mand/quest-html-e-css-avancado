@@ -1,0 +1,99 @@
+body{
+    max-width: 1440px;
+}
+
+.header{
+    display: flex;
+    padding: 30px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header nav ul li a {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius: 1px;
+    bottom: 25%;
+}
+
+.header nav ul li a:hover{
+    color: #fff;
+    background-color: #5BC241; 
+}
+
+
+
+
+.logo{
+    background: url(./menu/logo.png) center center no-repeat;
+    width: 49.28px;
+    height: 48.8px;
+    display: inline-block;
+}
+
+.header h1{
+    /* thebank */
+
+
+position: absolute;
+width: 80px;
+height: 24px;
+left: 85px;
+top: 48px;
+
+font-family: Public Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 15px;
+    
+}
+
+.menu input{
+    margin-left: 15px;
+
+}
+
+/*Cadastre-se */
+.styled {
+
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #5BC241;
+}
+
+.styled:hover {
+    background-color: #5BC241;
+} 
+
+ .styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+
+
+
+
+
+
