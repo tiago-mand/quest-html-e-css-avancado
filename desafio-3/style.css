@@ -1,0 +1,69 @@
+.container{
+     
+     width: 676px;
+     height: 377px;
+     display: grid;
+     margin: 22px 38px 55px 20px ;
+     background-color: #F7F7F7;
+     grid-template:repeat(4,auto) / repeat(3,auto);
+     grid-template-areas:  " esquerda propaganda propaganda "
+                           " esquerda direita direita"
+                           "esquerda direita direita"
+                           "esquerda direita direita"; 
+}
+
+
+.conteudo-esquerda {
+    grid-area: esquerda;
+    margin: 30px 20px 10px 30px;
+    
+}
+
+.conteudo-1 h2 {
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.descricao{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    margin: 10px;
+    line-height: 13px;
+}
+
+.propaganda {
+    grid-area: propaganda;
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 20px 30px 0px;
+    width: 100%;
+   
+}
+
+.conteudo-direita{
+    grid-area: direita;   
+}
+
+.conteudo {
+    display: flex;
+    line-height: 13px;
+    margin-bottom: 10px;
+}
+
+
+.conteudo h2 {
+    font-size: 14px;
+    position: relative;
+    left: 5px;
+    font-weight: 700;
+    height: 16px;
+}
+
+.conteudo p {
+    margin-top: 17px;
+    position: relative;
+    right: 165px;
+}
